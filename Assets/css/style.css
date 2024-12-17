@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.basicHome
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* header کد های  */
+.topTitle1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(163, 163, 163);
+}
+.topTitle2
+{
+    height: 130px;
+    background-color: rgb(163, 163, 163);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.topText
+{
+    height: 50%;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu
+{
+    height: 50px;
+    background-color: rgb(66, 66, 66);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuText
+{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    transition: all 2s;
+}
+.menuText:hover
+{
+    font-size: 30px;
+}
+/* home کد های صفحه */
+.selectGallery
+{
+    flex: 1;
+    background-image: url(/Assets/images/pexels-andrew-3178786.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.album
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 300px;
+    font-size: 40px;
+    color: white;
+    width: 300px;
+    height: 300px;
+    background-image: url(/Assets/images/mini\ gallery.jpg);
+    background-size: cover;
+    transition: all 2s;
+}
+.album:hover
+{
+    transform: scale(1.2);
+}
+a
+{
+    text-decoration: none;
+}
+/* footer کد های */
+.finalText
+{
+    line-height: 90px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(163, 163, 163);
+    height: 100px;
+}
